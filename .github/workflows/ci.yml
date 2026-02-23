@@ -46,4 +46,4 @@ jobs:
       - name: CDK Diff
         run: |
           cd infra
-          cdk diff
+          cdk diff 
