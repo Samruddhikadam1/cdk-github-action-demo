@@ -40,4 +40,4 @@ jobs:
       - name: CDK Deploy
         run: |
           cd infra
-          cdk deploy --require-approval never
+          cdk deploy --require-approval never 
