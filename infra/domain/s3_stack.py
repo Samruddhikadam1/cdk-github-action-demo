@@ -10,5 +10,5 @@ class S3NestedStack(NestedStack):
         S3Construct(
             self,
             "MyBucket",
-            bucket_name="my-cdk-bucket-demo"
+            bucket_name="ISA-Demo-Bucket-infra"
         )
