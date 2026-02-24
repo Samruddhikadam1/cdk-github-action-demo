@@ -12,9 +12,3 @@ class S3NestedStack(NestedStack):
             "MyBucket1",
             bucket_name="isa-demo-bucket-infra1"
         )
-
-        S3Construct(
-            self,
-            "MyBucket2",
-            bucket_name="isa-demo-bucket-infra2"
-        )
