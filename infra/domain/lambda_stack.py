@@ -15,6 +15,6 @@ class LambdaNestedStack(NestedStack):
 
         LambdaConstruct(
             self,
-            "MyLambda",
+            "MyLambda1",
             function_name="my-python-lambda1"
         )
